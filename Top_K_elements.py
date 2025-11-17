@@ -6,4 +6,6 @@ class Solution:
                 seen[num]+=1
             else:
                 seen[num]=1
-        return [x for x in seen if seen[x]>=k]
+        sorted_keys = sorted(seen, key=lambda x: seen[x])
+
+        return sorted_keys[::-1][:k]
