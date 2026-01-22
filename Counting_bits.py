@@ -1,3 +1,5 @@
+# Time Complexity: O(n * log n) - n iterations, each binary conversion is O(log n)
+# Space Complexity: O(n) - Result arrays of size n+1
 class Solution:
     def countBits(self, n: int) -> List[int]:
         result=[]

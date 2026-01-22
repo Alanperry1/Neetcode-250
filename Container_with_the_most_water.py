@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass with two pointers
+# Space Complexity: O(1) - Only using constant extra space
 class Solution:
     def maxArea(self, heights: List[int]) -> int:
         l,r=0,len(heights)-1

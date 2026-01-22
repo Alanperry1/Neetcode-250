@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through the array
+# Space Complexity: O(n) - Hash map stores up to n elements
 class Solution:
     def hasDuplicate(self, nums: List[int]) -> bool:
         seen={}

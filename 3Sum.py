@@ -1,3 +1,5 @@
+# Time Complexity: O(n^2) - O(n log n) for sorting + O(n^2) for two-pointer approach
+# Space Complexity: O(1) or O(n) - Depends on sorting algorithm (ignoring output space)
 class Solution:
     def threeSum(self, nums: List[int]) -> List[List[int]]:
         nums.sort()

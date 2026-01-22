@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single pass through the array
+# Space Complexity: O(1) - Only using constant extra space
 class Solution:
     def maxProfit(self, prices: List[int]) -> int:
         l,r=0,1

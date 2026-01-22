@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Two passes of House Robber I solution
+# Space Complexity: O(n) - DP array of size n
 class Solution:
     def rob(self, nums: List[int]) -> int:
         if len(nums)==1:

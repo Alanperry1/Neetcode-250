@@ -5,6 +5,8 @@
 #         self.left = left
 #         self.right = right
 
+# Time Complexity: O(n) - Visit each node once
+# Space Complexity: O(h) - Recursion stack depth h (height of tree)
 class Solution:
     def invertTree(self, root: Optional[TreeNode]) -> Optional[TreeNode]:
         if not root: return None

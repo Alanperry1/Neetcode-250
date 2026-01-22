@@ -1,3 +1,5 @@
+# Time Complexity: O(4^n / sqrt(n)) - Catalan number, exponential backtracking
+# Space Complexity: O(n) - Recursion depth and stack space
 class Solution:
     def generateParenthesis(self, n: int) -> List[str]:
         #Total number of pairs in each element= n*2

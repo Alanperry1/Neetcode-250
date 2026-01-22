@@ -1,3 +1,5 @@
+# Time Complexity: O(n) - Single loop through n steps
+# Space Complexity: O(n) - DP array of size n
 class Solution:
     def climbStairs(self, n: int) -> int:
         if n<=2:

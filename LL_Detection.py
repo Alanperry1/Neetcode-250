@@ -4,6 +4,8 @@
 #         self.val = val
 #         self.next = next
 
+# Time Complexity: O(n) - Traverse linked list with two pointers
+# Space Complexity: O(1) - Only using two pointers
 class Solution:
     def hasCycle(self, head: Optional[ListNode]) -> bool:
         slow,fast=head,head
